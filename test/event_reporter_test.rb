@@ -25,4 +25,8 @@ class EventReporterTest < Minitest::Test
     assert_equal 0, @event_reporter.queue.count
   end
 
+  def test_print_attributes
+    assert_equal 0 , @event_reporter.print_attrbitutes
+  end
+
 end
